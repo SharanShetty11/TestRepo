@@ -1,0 +1,2 @@
+ls -a : to view all hiddent files
+$ ls .git to view inside git folder - now any changes made to project will be saved here
