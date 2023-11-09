@@ -1,2 +1,11 @@
 ls -a : to view all hiddent files
+
+$git init -- to initialize git repo
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
 $ ls .git to view inside git folder - now any changes made to project will be saved here
+git status
+$ git add . -to save to the stage (. means everything or we can also write names of each file)
+$ git commit -m "file is added"  - changes saved (-m means any msg to be annoted)
