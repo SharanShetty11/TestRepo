@@ -22,9 +22,24 @@ git stash -- go back to the backstage -- do changes/test . save local changes it
 git stash pop -- to bring back changes made & removed by git stash
 git stash clear -- all the changes made will be cleared
 
+Linking to github
 git remote -v --shows all the attached files and folders
 git remote add origin (https:.....) -- To link our github repo with the project we doing locally (here) 
 here link will be saved as origin like how phone-numbers saved as contacts
+git push origin branch --to push the changes to url 
+
+
+Branches
+git branch feature -- create a branch
+git checkout feature -- to move to feature branch
+
+create a separate branch to run tests
+here Head will be pointing to the current working branch
+all the commits will be made will be added to branch pointed by Head
+
+git merge feature -- to merge feature with master (it's a pull req)+
+
+git push origin master
 
 
 
