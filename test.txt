@@ -14,9 +14,17 @@ $ git commit -m "file is added"  - changes saved (-m means any msg to be annoted
 cat filename -- to see changes
 $ git restore --staged cmdList.txt  --to reverse the staging 
 $ git log -- to view history 
-
+git
 $ rm -rf cmdList.txt -- delete a file if it is commited even once it can be retrieved
 git reset fj04j4#... - provide hash id to revert the changes.
 
-git stash -- go back to the backstage -- do changes/test 
+git stash -- go back to the backstage -- do changes/test . save local changes it basically goes to the last commited stage .
+git stash pop -- to bring back changes made & removed by git stash
+git stash clear -- all the changes made will be cleared
+
+git remote -v --shows all the attached files and folders
+git remote add origin (https:.....) -- To link our github repo with the project we doing locally (here) 
+here link will be saved as origin like how phone-numbers saved as contacts
+
+
 
