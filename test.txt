@@ -26,8 +26,10 @@ Linking to github
 git remote -v --shows all the attached files and folders
 git remote add origin (https:.....) -- To link our github repo with the project we doing locally (here) 
 here link will be saved as origin like how phone-numbers saved as contacts
+
 git push origin branch --to push the changes to url 
 
+git remote remove origin -- delete
 
 Branches
 git branch feature -- create a branch
