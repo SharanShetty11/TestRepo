@@ -14,7 +14,7 @@ $ git commit -m "file is added"  - changes saved (-m means any msg to be annoted
 cat filename -- to see changes
 $ git restore --staged cmdList.txt  --to reverse the staging 
 $ git log -- to view history 
-git
+
 $ rm -rf cmdList.txt -- delete a file if it is commited even once it can be retrieved
 git reset fj04j4#... - provide hash id to revert the changes.
 
@@ -49,4 +49,13 @@ git clone url (creates folder and downloads content)
 
 git remote add upstream url.. -- add forked project (instead of origin we give upstream)
 
+
+pull requests -- for each feature 1 pr.
+ 
+force push..
+git origin feature -f
+
+git fetch --all --prune -- fetch commits from upstream (prune -deleted changes also fetched)
+git reset --hard upstream/master (reset master branch of origin to master branch of upstream ) 
+then push using push command
 
