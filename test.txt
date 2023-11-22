@@ -41,7 +41,12 @@ all the commits will be made will be added to branch pointed by Head
 
 git merge feature -- to merge feature with master (it's a pull req)+
 
-git push origin master
+git push origin branch_name  -- push a particular branch
 
+--working with other branches--
+create a copy of the repo into our own account use fork choose account
+git clone url (creates folder and downloads content)
+
+git remote add upstream url.. -- add forked project (instead of origin we give upstream)
 
 
