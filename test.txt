@@ -59,3 +59,6 @@ git fetch --all --prune -- fetch commits from upstream (prune -deleted changes a
 git reset --hard upstream/master (reset master branch of origin to master branch of upstream ) 
 then push using push command
 
+git rebase -i hashcode   (squash -- multi commits will be squashed(merge)
+
+merge conflicts
